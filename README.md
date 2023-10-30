@@ -11,8 +11,12 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_marcelschreiner.github.io&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_marcelschreiner.github.io)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_marcelschreiner.github.io&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_marcelschreiner.github.io)
 
-Personal webpage of Marcel Schreiner
-
 <br />
+<br />
+
+Welcome to my personal webpage! This site is a collection of my projects, interests, and experiences.
+
+![preview](https://github.com/marcelschreiner/marcelschreiner.github.io/blob/main/preview.png?raw=true)
+
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_marcelschreiner.github.io)
