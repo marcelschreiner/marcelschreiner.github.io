@@ -1,5 +1,5 @@
 /* ===================================================================
- * Glint - Main JS
+ * Main JS
  *
  * ------------------------------------------------------------------- */
 
@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
+        mailChimpURL   : 'https://icloud.us11.list-manage.com/subscribe/post?u=5125a1a1eaa7ee857515b0c58&amp;id=71dfcfaf7a&amp;f_id=00dbaee0f0'   // mailchimp url
     },
 
     $WIN = $(window);

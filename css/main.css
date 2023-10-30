@@ -1,6 +1,6 @@
 /* =================================================================== 
  *
- *  Glint v1.0 Main Stylesheet
+ *  v1.0 Main Stylesheet
  *  11-20-2017
  *  ------------------------------------------------------------------
  *
@@ -74,13 +74,13 @@ html, body {
 }
 
 body {
-    background: #111111;
+    background: #050505;
     font-family: "lora-regular", serif;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
     line-height: 1.765;
-    color: #757575;
+    color: #8a8682;
     margin: 0;
     padding: 0;
 }
@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #39b54a;
+    color: #87725e;
 }
 
 a:hover, a:active {
@@ -112,7 +112,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "montserrat-medium", sans-serif;
-    color: #000000;
+    color: #E8E6E3;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #39b54a;
+    background: #87725e;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #39b54a;
+    color: #87725e;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #87725e;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #39b54a;
+    background-color: #87725e;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #39b54a;
+    -webkit-text-fill-color: #87725e;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #87725e;
+    border-color: #87725e;
     color: #FFFFFF;
 }
 
@@ -847,8 +847,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #a4968a;
+    border-color: #a4968a;
 }
 
 
@@ -872,8 +872,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #39b54a;
-    color: #39b54a;
+    border: 0.2rem solid #87725e;
+    color: #87725e;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1101,7 +1101,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #39b54a;
+    color: #87725e;
 }
 
 .stats-tabs li a em {
@@ -1228,7 +1228,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 5.2rem;
     line-height: 1.255;
-    color: #000000;
+    color: #E8E6E3;
     margin-top: 0;
 }
 
@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #39b54a;
+    color: #87725e;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1354,6 +1354,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .s-clients {
         padding-bottom: 17.4rem;
     }
+    .s-press {
+        padding-bottom: 17.4rem;
+    }
     .section-header.has-bottom-sep::before {
         width: 400px;
     }
@@ -1420,7 +1423,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #39b54a;
+    background: #87725e;
 }
 
 
@@ -1513,7 +1516,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #39b54a;
+    color: #87725e;
 }
 
 .header-nav p {
@@ -1592,7 +1595,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     height: 2px;
     width: 12px;
-    background-color: #FFFFFF;
+    background-color: #181A1B;
     position: absolute;
     top: 50%;
     left: 9px;
@@ -1651,7 +1654,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: #87725e;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1836,7 +1839,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn:hover, 
 .home-content__buttons .btn:focus {
-    background: #FFFFFF !important;
+    background: #181A1B !important;
     color: #000000;
 }
 
@@ -1859,8 +1862,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #39b54a;
-    border-right: 2px solid #39b54a;
+    border-bottom: 2px solid #87725e;
+    border-right: 2px solid #87725e;
     content: '';
     display: block;
     height: 8px;
@@ -1884,7 +1887,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: #87725e;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1944,7 +1947,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #39b54a;
+    color: #87725e;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2200,7 +2203,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: #87725e;
     color: #010507;
     position: relative;
 }
@@ -2261,7 +2264,7 @@ html.no-csstransitions .home-content__main {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #FFFFFF;
+    background-color: #181A1B;
     position: absolute;
     right: 7.2rem;
     top: 0;
@@ -2370,8 +2373,8 @@ html.no-csstransitions .home-content__main {
 .s-services {
     padding-top: 16.2rem;
     padding-bottom: 13.2rem;
-    background-color: #FFFFFF;
-    color: #757575;
+    background-color: #181A1B;
+    color: #8a8682;
     position: relative;
 }
 
@@ -2405,7 +2408,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #39b54a;
+    color: #87725e;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2492,7 +2495,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-    background: #FFFFFF;
+    background: #181A1B;
     padding: 0 0 15rem 0;
     min-height: 800px;
     position: relative;
@@ -2504,7 +2507,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .works-content {
-    max-width: 1160px;
+    max-width: 1000px;
     margin-top: -23.4rem;
 }
 
@@ -2623,7 +2626,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link {
     display: block;
     color: #FFFFFF;
-    box-shadow: 0 0 0 1px #FFFFFF;
+    box-shadow: 0 0 0 1px #181A1B;
     border-radius: 50%;
     height: 4.2rem;
     width: 4.2rem;
@@ -2658,7 +2661,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:hover,
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
-    background-color: #FFFFFF;
+    background-color: #181A1B;
     color: #000000;
 }
 
@@ -2732,8 +2735,8 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-color: #e6e6e6;
-    color: #757575;
+    background-color: #26292B;
+    color: #8a8682;
     position: relative;
 }
 
@@ -2794,7 +2797,7 @@ html.no-csstransitions .home-content__main {
     font-family: "lora-regular", serif;
     font-size: 3rem;
     line-height: 1.8;
-    color: #555555;
+    color: #8a8682;
     margin-bottom: 6rem;
 }
 
@@ -2816,7 +2819,7 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials__name {
     font-family: "montserrat-semibold", sans-serif;
-    color: #000000;
+    color: #e2dbd4;
 }
 
 .clients-testimonials .testimonials__pos {
@@ -2908,6 +2911,9 @@ html.no-csstransitions .home-content__main {
     .s-clients {
         padding-top: 12rem;
     }
+    .s-press {
+        padding-top: 12rem;
+    }
     .clients-testimonials::before {
         width: 250px;
     }
@@ -2928,11 +2934,25 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
+ * # clients
+ *
+ * ------------------------------------------------------------------- */
+.s-press {
+    padding-top: 16.2rem;
+    padding-bottom: 16.8rem;
+    position: relative;
+}
+
+
+
+/* ===================================================================
  * # contact 
  *
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
+    /*background-image: url("../images/main_1080p.mp4");
+    background-clip: padding-box;*/
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
@@ -2973,8 +2993,8 @@ html.no-csstransitions .home-content__main {
     letter-spacing: .1rem;
     padding: 0 2rem;
     margin: 0;
-    color: #FFFFFF;
-    background: #39b54a;
+    color: #ffffff;
+    background: #87725e;
 }
 
 .s-contact .form-field label::after {
@@ -2985,14 +3005,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #39b54a;
+    border-right: 5px solid #87725e;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #39b54a;
+    background-color: #87725e;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3019,7 +3039,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #87725e;
 }
 
 .contact-content input[type="email"],
@@ -3046,7 +3066,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #39b54a;
+    border-bottom: 1px solid #87725e;
 }
 
 .contact-content button,
@@ -3088,7 +3108,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-primary {
-    width: 65%;
+    width: 100%;
 }
 
 .contact-primary #contactForm {
@@ -3137,7 +3157,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #39b54a;
+    color: #87725e;
 }
 
 .contact-social li:last-child {
@@ -3160,7 +3180,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #39b54a;
+    color: #87725e;
 }
 
 .message-warning i, .message-success i {
@@ -3216,7 +3236,7 @@ html.no-csstransitions .home-content__main {
 .s-loader > div {
     width: 9px;
     height: 9px;
-    background-color: #FFFFFF;
+    background-color: #181A1B;
     border-radius: 100%;
     display: inline-block;
     margin-right: .9rem;
@@ -3352,7 +3372,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: #87725e;
 }
 
 footer .row {
@@ -3444,8 +3464,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #87725e;
+    border-color: #87725e;
     padding: 0 20px;
 }
 
