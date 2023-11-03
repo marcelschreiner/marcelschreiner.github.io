@@ -16,7 +16,7 @@
 
 Welcome to my personal webpage! This site is a collection of my projects, interests, and experiences.
 
-![preview](https://github.com/marcelschreiner/marcelschreiner.github.io/blob/main/preview.png?raw=true)
+![preview](https://github.com/marcelschreiner/marcelschreiner.github.io/blob/main/images/preview.webp?raw=true)
 
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_marcelschreiner.github.io)
