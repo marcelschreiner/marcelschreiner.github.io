@@ -1839,8 +1839,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn:hover, 
 .home-content__buttons .btn:focus {
-    background: #181A1B !important;
-    color: #000000;
+    background: #87725e !important;
+    color: #ffffff;
 }
 
 .home-content__scroll {
@@ -3184,6 +3184,11 @@ html.no-csstransitions .home-content__main {
 .message-warning i, .message-success i {
     margin-right: 10px;
     font-size: 1.2rem;
+}
+
+.mce_inline_error {
+    color: #ff6163;
+    border-bottom-color:#ff6163 !important;
 }
 
 
