@@ -550,11 +550,9 @@ form,
     height: 35px;
     border-radius: 2px;
     margin: 2px;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
     display: inline-block;
-    -webkit-animation: line-scale-pulse-out 0.9s -0.6s infinite cubic-bezier(0.85, 0.25, 0.37, 0.85);
-    animation: line-scale-pulse-out 0.9s -0.6s infinite cubic-bezier(0.85, 0.25, 0.37, 0.85);
+    -webkit-animation: line-scale-pulse-out 0.9s -0.6s infinite cubic-bezier(0.85, 0.25, 0.37, 0.85) both;
+    animation: line-scale-pulse-out 0.9s -0.6s infinite cubic-bezier(0.85, 0.25, 0.37, 0.85) both;
 }
 
 .line-scale-pulse-out > div:nth-child(2), .line-scale-pulse-out > div:nth-child(4) {
@@ -1407,7 +1405,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     border-radius: 50%;
     background: #959595;
     border: none;
-    line-height: 10px;
     padding: 0;
     margin: 0;
     cursor: pointer;
@@ -1490,9 +1487,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     overflow-x: hidden;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    -webkit-transform: translateZ(0);
+    -webkit-transform: translateZ(0) translateX(100%);
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
     visibility: hidden;
@@ -3530,7 +3526,6 @@ footer .row {
     text-align: center;
     background: black;
     color: rgba(255, 255, 255, 0.5);
-    text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
