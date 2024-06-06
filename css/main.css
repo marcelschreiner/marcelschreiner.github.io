@@ -1661,7 +1661,7 @@ input::-moz-focus-inner {
 
 .header-nav h3 {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 11px;
+    font-size: 20px;
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -1683,7 +1683,7 @@ input::-moz-focus-inner {
 
 .header-nav__list {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
     list-style: none;
@@ -1703,7 +1703,7 @@ input::-moz-focus-inner {
     list-style: none;
     display: inline-block;
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 
 .header-nav__social li {
