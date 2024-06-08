@@ -37,11 +37,11 @@
  *      ## home animations
  *  # about
  *      ## about stats
- *  # services
- *      ## services list
+ *  # skills
+ *      ## skills list
  *  # works
  *      ## bricks/masonry
- *  # clients
+ *  # featured
  *      ## slider
  *      ## testimonials
  *  # contact
@@ -88,7 +88,7 @@ body {
 
 :root {
     --accent-color: #8f7e6f;
-    /* #918475;  #a49282*/
+    --shadow-color: rgba(143, 126, 111, 0.4);
 }
 
 
@@ -1500,11 +1500,11 @@ input::-moz-focus-inner {
 }
 
 @media only screen and (max-width: 800px) {
-    .s-clients {
+    .s-featured {
         padding-bottom: 17.4rem;
     }
 
-    .s-press {
+    .s-awards {
         padding-bottom: 17.4rem;
     }
 
@@ -2566,10 +2566,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # services
+ * # skills
  *
  * ------------------------------------------------------------------- */
-.s-services {
+.s-skills {
     padding-top: 16.2rem;
     padding-bottom: 13.2rem;
     background-color: #181A1B;
@@ -2579,35 +2579,36 @@ html.no-csstransitions .home-content__main {
 
 
 /* ------------------------------------------------------------------- 
- * ## services list
+ * ## skills list
  * ------------------------------------------------------------------- */
-.services-list {
+.skills-list {
     margin-top: 6rem;
 }
 
-.services-list .service-item {
+.skills-list .service-item {
     margin-bottom: .9rem;
 }
 
-.services-list .service-item h3 {
+.skills-list .service-item h3 {
     margin-top: 0;
 }
 
-.services-list .service-item:nth-child(2n+1) {
+.skills-list .service-item:nth-child(2n+1) {
     padding-right: 50px;
 }
 
-.services-list .service-item:nth-child(2n+2) {
+.skills-list .service-item:nth-child(2n+2) {
     padding-left: 50px;
 }
 
-.services-list .service-text {
+.skills-list .service-text {
     margin-left: 7.8rem;
 }
 
-.services-list .service-icon {
+.skills-list .service-icon {
     float: left;
     color: var(--accent-color);
+    text-shadow: 0 0 30px var(--shadow-color);
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2615,57 +2616,57 @@ html.no-csstransitions .home-content__main {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * services
+ * skills
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .services-list {
+    .skills-list {
         max-width: 1000px;
     }
 
-    .services-list .service-item:nth-child(2n+1) {
+    .skills-list .service-item:nth-child(2n+1) {
         padding-right: 30px;
     }
 
-    .services-list .service-item:nth-child(2n+2) {
+    .skills-list .service-item:nth-child(2n+2) {
         padding-left: 30px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .services-list h3 {
+    .skills-list h3 {
         font-size: 2.5rem;
     }
 
-    .services-list .service-item:nth-child(2n+1) {
+    .skills-list .service-item:nth-child(2n+1) {
         padding-right: 20px;
     }
 
-    .services-list .service-item:nth-child(2n+2) {
+    .skills-list .service-item:nth-child(2n+2) {
         padding-left: 20px;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .services-list {
+    .skills-list {
         margin-top: 4.2rem;
         max-width: 500px;
         text-align: center;
     }
 
-    .services-list .service-item:nth-child(n) {
+    .skills-list .service-item:nth-child(n) {
         padding-right: 15px;
         padding-left: 15px;
     }
 
-    .services-list h3 {
+    .skills-list h3 {
         font-size: 3rem;
     }
 
-    .services-list .service-text {
+    .skills-list .service-text {
         margin-left: 0;
     }
 
-    .services-list .service-icon {
+    .skills-list .service-icon {
         font-size: 4.5rem;
         float: none;
         margin-top: 0;
@@ -2673,27 +2674,27 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .s-services {
+    .s-skills {
         padding-top: 12rem;
     }
 
-    .services-list .service-item:nth-child(n) {
+    .skills-list .service-item:nth-child(n) {
         padding-right: 10px;
         padding-left: 10px;
     }
 
-    .services-list h3 {
+    .skills-list h3 {
         font-size: 2.5rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .services-list .service-item:nth-child(n) {
+    .skills-list .service-item:nth-child(n) {
         padding-right: 0;
         padding-left: 0;
     }
 
-    .services-list h3 {
+    .skills-list h3 {
         font-size: 2.5rem;
     }
 }
@@ -2947,10 +2948,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # clients
+ * # featured
  *
  * ------------------------------------------------------------------- */
-.s-clients {
+.s-featured {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
     background-color: #26292B;
@@ -2962,14 +2963,14 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## slider
  * ------------------------------------------------------------------- */
-.clients-outer {
+.featured-outer {
     margin-top: 3.6rem;
     padding-bottom: 9rem;
     text-align: center;
     position: relative;
 }
 
-.clients__slide {
+.featured__slide {
     display: block;
     opacity: .55;
     padding: 1.5rem 2.8rem;
@@ -2977,8 +2978,8 @@ html.no-csstransitions .home-content__main {
     transition: opacity 0.5s ease-in-out;
 }
 
-.clients__slide:hover,
-.clients__slide:focus {
+.featured__slide:hover,
+.featured__slide:focus {
     opacity: 1;
 }
 
@@ -2986,14 +2987,14 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## testimonials
  * ------------------------------------------------------------------- */
-.clients-testimonials {
+.featured-testimonials {
     margin-top: 4.2rem;
     padding-top: 7.2rem;
     text-align: center;
     position: relative;
 }
 
-.clients-testimonials::before {
+.featured-testimonials::before {
     content: "";
     display: block;
     height: 1px;
@@ -3008,11 +3009,11 @@ html.no-csstransitions .home-content__main {
     transform: translateX(-50%);
 }
 
-.clients-testimonials .testimonials {
+.featured-testimonials .testimonials {
     margin: 0 10%;
 }
 
-.clients-testimonials .testimonials p {
+.featured-testimonials .testimonials p {
     font-family: "montserrat-extralight", serif;
     font-size: 3rem;
     line-height: 1.8;
@@ -3020,33 +3021,33 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 6rem;
 }
 
-.clients-testimonials .testimonials__slide {
+.featured-testimonials .testimonials__slide {
     padding: 0 0 3rem 0;
 }
 
-.clients-testimonials .testimonials__avatar {
+.featured-testimonials .testimonials__avatar {
     height: 8.4rem;
     width: 8.4rem;
     border-radius: 50%;
     margin: 0 auto 1.2rem auto;
 }
 
-.clients-testimonials .testimonials__name,
-.clients-testimonials .testimonials__pos {
+.featured-testimonials .testimonials__name,
+.featured-testimonials .testimonials__pos {
     display: block;
 }
 
-.clients-testimonials .testimonials__name {
+.featured-testimonials .testimonials__name {
     font-family: "montserrat-semibold", sans-serif;
     color: #e2dbd4;
 }
 
-.clients-testimonials .testimonials__pos {
+.featured-testimonials .testimonials__pos {
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
 }
 
-.clients-testimonials .testimonials .slick-arrow {
+.featured-testimonials .testimonials .slick-arrow {
     position: absolute;
     top: 7.2rem;
     width: 66px;
@@ -3067,96 +3068,96 @@ html.no-csstransitions .home-content__main {
     z-index: 2;
 }
 
-.clients-testimonials .testimonials .slick-prev {
+.featured-testimonials .testimonials .slick-prev {
     left: -130px;
     background-image: url("../images/left-arrow.webp");
 }
 
-.clients-testimonials .testimonials .slick-next {
+.featured-testimonials .testimonials .slick-next {
     right: -130px;
     background-image: url("../images/right-arrow.webp");
 }
 
-.clients-testimonials .testimonials .slick-dots {
+.featured-testimonials .testimonials .slick-dots {
     margin-top: -0.6px;
 }
 
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * clients
+ * featured
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .clients-testimonials .testimonials {
+    .featured-testimonials .testimonials {
         margin: 0 12%;
     }
 
-    .clients-testimonials .testimonials p {
+    .featured-testimonials .testimonials p {
         font-size: 2.6rem;
     }
 
-    .clients-testimonials .testimonials .slick-prev {
+    .featured-testimonials .testimonials .slick-prev {
         left: -100px;
     }
 
-    .clients-testimonials .testimonials .slick-next {
+    .featured-testimonials .testimonials .slick-next {
         right: -100px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .clients-testimonials .testimonials p {
+    .featured-testimonials .testimonials p {
         font-size: 2.2rem;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .clients-testimonials::before {
+    .featured-testimonials::before {
         width: 400px;
     }
 
-    .clients-testimonials .testimonials {
+    .featured-testimonials .testimonials {
         margin: 0 2rem;
     }
 
-    .clients-testimonials .testimonials .slick-arrow {
+    .featured-testimonials .testimonials .slick-arrow {
         top: auto;
         bottom: 3rem;
     }
 
-    .clients-testimonials .testimonials .slick-prev {
+    .featured-testimonials .testimonials .slick-prev {
         left: 0;
     }
 
-    .clients-testimonials .testimonials .slick-next {
+    .featured-testimonials .testimonials .slick-next {
         right: 0;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .s-clients {
+    .s-featured {
         padding-top: 12rem;
     }
 
-    .s-press {
+    .s-awards {
         padding-top: 12rem;
     }
 
-    .clients-testimonials::before {
+    .featured-testimonials::before {
         width: 250px;
     }
 
-    .clients-testimonials .testimonials {
+    .featured-testimonials .testimonials {
         margin: 0;
     }
 
-    .clients-testimonials .testimonials p {
+    .featured-testimonials .testimonials p {
         font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .clients-testimonials .testimonials p {
+    .featured-testimonials .testimonials p {
         font-size: 1.9rem;
     }
 }
@@ -3164,10 +3165,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # clients
+ * # featured
  *
  * ------------------------------------------------------------------- */
-.s-press {
+.s-awards {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
     position: relative;
