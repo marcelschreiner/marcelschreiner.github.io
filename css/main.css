@@ -261,12 +261,12 @@ b {
 
 em,
 i {
-    font-family: "lora-italic", serif;
+    font-family: "montserrat-light", serif;
 }
 
 strong,
 b {
-    font-family: "lora-bold", serif;
+    font-family: "montserrat-bold", serif;
 }
 
 small {
@@ -318,14 +318,6 @@ blockquote cite a:visited {
     border: none;
 }
 
-abbr {
-    font-family: "lora-bold", serif;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    letter-spacing: .05rem;
-    color: #828282;
-}
-
 var,
 kbd,
 samp,
@@ -364,13 +356,6 @@ pre.prettyprint>code {
 
 del {
     text-decoration: line-through;
-}
-
-abbr[title],
-dfn[title] {
-    border-bottom: 1px dotted;
-    cursor: help;
-    text-decoration: none;
 }
 
 mark {
@@ -489,7 +474,7 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "lora-regular", serif;
+    font-family: "montserrat-regular", serif;
 }
 
 th,
