@@ -2691,7 +2691,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-    background: #181A1B;
+    background: #111111;
     padding: 0 0 15rem 0;
     min-height: 800px;
     position: relative;
@@ -2939,7 +2939,7 @@ html.no-csstransitions .home-content__main {
 .s-featured {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-color: #26292B;
+    background-color: #181A1B;
     color: #ddd6d2;
     position: relative;
 }

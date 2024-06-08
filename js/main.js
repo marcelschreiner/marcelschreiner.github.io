@@ -134,6 +134,8 @@
         // bind click event
         $folioItems.each(function (i) {
 
+            // Intentionally do not act on click event and go to the link directly
+            /*
             $(this).on('click', function (e) {
                 e.preventDefault();
                 var options = {
@@ -144,7 +146,7 @@
                 // initialize PhotoSwipe
                 var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
                 lightBox.init();
-            });
+            });*/
 
         });
 
