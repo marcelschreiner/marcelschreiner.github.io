@@ -1927,7 +1927,7 @@ input::-moz-focus-inner {
     display: table-cell;
     width: 100%;
     height: 100%;
-    vertical-align: middle;
+    vertical-align: bottom;
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
@@ -2313,19 +2313,23 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 500px) {
     .s-home {
-        min-height: 642px;
+        min-height: 630px;
     }
 
     .home-content h1 {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.2rem;
     }
 
     .home-content__main {
         text-align: center;
         max-width: none;
-        padding-top: 15rem;
         padding-right: 25px;
-        width: 85%;
+        padding-top: 16.2rem;
+        width: auto;
     }
 
     .home-content__buttons {
@@ -2340,29 +2344,11 @@ html.no-csstransitions .home-content__main {
     .home-social {
         display: none;
     }
-}
 
-@media only screen and (max-width: 450px) {
-    .home-content h1 {
-        font-size: 3.3rem;
+    .home-content {
+        padding-bottom: 10.2rem;
     }
 }
-
-@media only screen and (max-width: 400px) {
-    .s-home {
-        min-height: 630px;
-    }
-
-    .home-content h1 {
-        font-size: 3.2rem;
-    }
-
-    .home-content__main {
-        padding-top: 16.2rem;
-        width: auto;
-    }
-}
-
 
 
 /* ===================================================================
