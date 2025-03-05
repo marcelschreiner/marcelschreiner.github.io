@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: 
-Sitemap: https://marcelschreiner.ch/sitemap.xml
+Disallow: /
+Sitemap: https://assets.marcelschreiner.ch/sitemap.xml
