@@ -1,4 +1,4 @@
-# <ms/> CDN – Code, Design & Engineering
+# &lt;ms/&gt; CDN - Content Delivery Network
 
 [![pages-build-deployment](https://github.com/marcelschreiner/marcelschreiner.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/marcelschreiner/marcelschreiner.github.io/actions/workflows/pages/pages-build-deployment)
 [![HitCount](https://hits.dwyl.com/marcelschreiner/marcelschreiner.github.io.svg?style=flat)](http://hits.dwyl.com/marcelschreiner/marcelschreiner.github.io)
@@ -12,19 +12,15 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_marcelschreiner.github.io&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_marcelschreiner.github.io)
 
 <br />
-<br />
 
-Welcome to the **<ms/> CDN** — the central static asset repository of  
-[marcelschreiner.ch](https://marcelschreiner.ch).
+Welcome to the **&lt;ms/&gt; CDN** — the central static asset repository of [marcelschreiner.ch](https://marcelschreiner.ch).
 
 This repository is deployed via **GitHub Pages** and serves as a lightweight  
 **Content Delivery Network (CDN)** for all projects, websites, and media  
 created by **Marcel Schreiner – Code, Design & Engineering**.
 
----
-
 ## 📂 Structure
-"""
+```
 democlient/
 │
 ├── assets/
@@ -39,16 +35,14 @@ democlient/
 │   ├── landing/
 │   └── ui/
 │
-├── media/
+└── media/
     ├── videos/
     ├── audio/
     └── downloads/
-"""
+```
 
 Each project/client follows this same structure  
 to keep all assets organized and reusable across websites.
-
----
 
 ## 🧩 Purpose
 
@@ -57,16 +51,12 @@ to keep all assets organized and reusable across websites.
 - Shared branding and UI assets between multiple projects  
 - Clean caching strategy for reusable files
 
----
-
 ## ⚙️ Deployment
 
 GitHub Pages automatically publishes the content of the **`main` branch**.
 
 After every commit, the latest version is available here:
 > Changes propagate automatically within a few seconds.
-
----
 
 ## 🧠 Guidelines
 
@@ -75,16 +65,13 @@ After every commit, the latest version is available here:
 - Do not upload personal or sensitive content  
 - Use lowercase file names with `-` or `_` separators
 
----
-
 ## 🧰 License & Credits
 
 © [Marcel Schreiner](https://marcelschreiner.ch)  
-All content is copyright protected.
+All hosted assets (images, icons, fonts, media, and design elements) are protected by copyright  
+and may not be reused or redistributed without permission.
 
----
-
-### 🪶 Powered by  
-**<ms/> Code, Design & Engineering**  
+All structural and meta files (such as `README.md`, `index.html`, `.gitkeep`, or configuration files)  
+are provided for reference and may be freely reused or adapted.
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_marcelschreiner.github.io)
